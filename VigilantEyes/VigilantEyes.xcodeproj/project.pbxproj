@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1C3B6B28925CC400239486 /* VigilantEyesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C3B6A28925CC400239486 /* VigilantEyesApp.swift */; };
+		0C1C3B6D28925CC400239486 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C3B6C28925CC400239486 /* ContentView.swift */; };
+		0C1C3B6F28925CC500239486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1C3B6E28925CC500239486 /* Assets.xcassets */; };
+		0C1C3B7228925CC500239486 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1C3B7128925CC500239486 /* Preview Assets.xcassets */; };
+		0C1C3B7D28925CC500239486 /* VigilantEyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C3B7C28925CC500239486 /* VigilantEyesTests.swift */; };
+		0C1C3B8728925CC500239486 /* VigilantEyesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C3B8628925CC500239486 /* VigilantEyesUITests.swift */; };
+		0C1C3B8928925CC500239486 /* VigilantEyesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C3B8828925CC500239486 /* VigilantEyesUITestsLaunchTests.swift */; };
+		0C1C3B9728925CD800239486 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0C1C3B9628925CD800239486 /* ConfettiSwiftUI */; };
+		0C1C3B9928925D2700239486 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C3B9828925D2700239486 /* Notifications.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C1C3B7928925CC500239486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1C3B5F28925CC400239486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1C3B6628925CC400239486;
+			remoteInfo = VigilantEyes;
+		};
+		0C1C3B8328925CC500239486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1C3B5F28925CC400239486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1C3B6628925CC400239486;
+			remoteInfo = VigilantEyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1C3B6728925CC400239486 /* VigilantEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VigilantEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1C3B6A28925CC400239486 /* VigilantEyesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VigilantEyesApp.swift; sourceTree = "<group>"; };
+		0C1C3B6C28925CC400239486 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0C1C3B6E28925CC500239486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C1C3B7128925CC500239486 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C1C3B7328925CC500239486 /* VigilantEyes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VigilantEyes.entitlements; sourceTree = "<group>"; };
+		0C1C3B7828925CC500239486 /* VigilantEyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VigilantEyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1C3B7C28925CC500239486 /* VigilantEyesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VigilantEyesTests.swift; sourceTree = "<group>"; };
+		0C1C3B8228925CC500239486 /* VigilantEyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VigilantEyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1C3B8628925CC500239486 /* VigilantEyesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VigilantEyesUITests.swift; sourceTree = "<group>"; };
+		0C1C3B8828925CC500239486 /* VigilantEyesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VigilantEyesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C1C3B9828925D2700239486 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C1C3B6428925CC400239486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1C3B9728925CD800239486 /* ConfettiSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1C3B7528925CC500239486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1C3B7F28925CC500239486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1C3B5E28925CC400239486 = {
+			isa = PBXGroup;
+			children = (
+				0C1C3B6928925CC400239486 /* VigilantEyes */,
+				0C1C3B7B28925CC500239486 /* VigilantEyesTests */,
+				0C1C3B8528925CC500239486 /* VigilantEyesUITests */,
+				0C1C3B6828925CC400239486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C1C3B6828925CC400239486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C1C3B6728925CC400239486 /* VigilantEyes.app */,
+				0C1C3B7828925CC500239486 /* VigilantEyesTests.xctest */,
+				0C1C3B8228925CC500239486 /* VigilantEyesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C1C3B6928925CC400239486 /* VigilantEyes */ = {
+			isa = PBXGroup;
+			children = (
+				0C1C3B6A28925CC400239486 /* VigilantEyesApp.swift */,
+				0C1C3B6C28925CC400239486 /* ContentView.swift */,
+				0C1C3B9828925D2700239486 /* Notifications.swift */,
+				0C1C3B6E28925CC500239486 /* Assets.xcassets */,
+				0C1C3B7328925CC500239486 /* VigilantEyes.entitlements */,
+				0C1C3B7028925CC500239486 /* Preview Content */,
+			);
+			path = VigilantEyes;
+			sourceTree = "<group>";
+		};
+		0C1C3B7028925CC500239486 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0C1C3B7128925CC500239486 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C1C3B7B28925CC500239486 /* VigilantEyesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C1C3B7C28925CC500239486 /* VigilantEyesTests.swift */,
+			);
+			path = VigilantEyesTests;
+			sourceTree = "<group>";
+		};
+		0C1C3B8528925CC500239486 /* VigilantEyesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C1C3B8628925CC500239486 /* VigilantEyesUITests.swift */,
+				0C1C3B8828925CC500239486 /* VigilantEyesUITestsLaunchTests.swift */,
+			);
+			path = VigilantEyesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C1C3B6628925CC400239486 /* VigilantEyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1C3B8C28925CC500239486 /* Build configuration list for PBXNativeTarget "VigilantEyes" */;
+			buildPhases = (
+				0C1C3B6328925CC400239486 /* Sources */,
+				0C1C3B6428925CC400239486 /* Frameworks */,
+				0C1C3B6528925CC400239486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VigilantEyes;
+			packageProductDependencies = (
+				0C1C3B9628925CD800239486 /* ConfettiSwiftUI */,
+			);
+			productName = VigilantEyes;
+			productReference = 0C1C3B6728925CC400239486 /* VigilantEyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C1C3B7728925CC500239486 /* VigilantEyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1C3B8F28925CC500239486 /* Build configuration list for PBXNativeTarget "VigilantEyesTests" */;
+			buildPhases = (
+				0C1C3B7428925CC500239486 /* Sources */,
+				0C1C3B7528925CC500239486 /* Frameworks */,
+				0C1C3B7628925CC500239486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C1C3B7A28925CC500239486 /* PBXTargetDependency */,
+			);
+			name = VigilantEyesTests;
+			productName = VigilantEyesTests;
+			productReference = 0C1C3B7828925CC500239486 /* VigilantEyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C1C3B8128925CC500239486 /* VigilantEyesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1C3B9228925CC500239486 /* Build configuration list for PBXNativeTarget "VigilantEyesUITests" */;
+			buildPhases = (
+				0C1C3B7E28925CC500239486 /* Sources */,
+				0C1C3B7F28925CC500239486 /* Frameworks */,
+				0C1C3B8028925CC500239486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C1C3B8428925CC500239486 /* PBXTargetDependency */,
+			);
+			name = VigilantEyesUITests;
+			productName = VigilantEyesUITests;
+			productReference = 0C1C3B8228925CC500239486 /* VigilantEyesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C1C3B5F28925CC400239486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0C1C3B6628925CC400239486 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0C1C3B7728925CC500239486 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0C1C3B6628925CC400239486;
+					};
+					0C1C3B8128925CC500239486 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0C1C3B6628925CC400239486;
+					};
+				};
+			};
+			buildConfigurationList = 0C1C3B6228925CC400239486 /* Build configuration list for PBXProject "VigilantEyes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C1C3B5E28925CC400239486;
+			packageReferences = (
+				0C1C3B9528925CD800239486 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
+			productRefGroup = 0C1C3B6828925CC400239486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C1C3B6628925CC400239486 /* VigilantEyes */,
+				0C1C3B7728925CC500239486 /* VigilantEyesTests */,
+				0C1C3B8128925CC500239486 /* VigilantEyesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C1C3B6528925CC400239486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1C3B7228925CC500239486 /* Preview Assets.xcassets in Resources */,
+				0C1C3B6F28925CC500239486 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1C3B7628925CC500239486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1C3B8028925CC500239486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C1C3B6328925CC400239486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1C3B9928925D2700239486 /* Notifications.swift in Sources */,
+				0C1C3B6D28925CC400239486 /* ContentView.swift in Sources */,
+				0C1C3B6B28925CC400239486 /* VigilantEyesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1C3B7428925CC500239486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1C3B7D28925CC500239486 /* VigilantEyesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1C3B7E28925CC500239486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1C3B8928925CC500239486 /* VigilantEyesUITestsLaunchTests.swift in Sources */,
+				0C1C3B8728925CC500239486 /* VigilantEyesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C1C3B7A28925CC500239486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C1C3B6628925CC400239486 /* VigilantEyes */;
+			targetProxy = 0C1C3B7928925CC500239486 /* PBXContainerItemProxy */;
+		};
+		0C1C3B8428925CC500239486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C1C3B6628925CC400239486 /* VigilantEyes */;
+			targetProxy = 0C1C3B8328925CC500239486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C1C3B8A28925CC500239486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C1C3B8B28925CC500239486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0C1C3B8D28925CC500239486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = VigilantEyes/VigilantEyes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VigilantEyes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.VigilantEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0C1C3B8E28925CC500239486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = VigilantEyes/VigilantEyes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VigilantEyes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.VigilantEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0C1C3B9028925CC500239486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.VigilantEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VigilantEyes.app/Contents/MacOS/VigilantEyes";
+			};
+			name = Debug;
+		};
+		0C1C3B9128925CC500239486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.VigilantEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VigilantEyes.app/Contents/MacOS/VigilantEyes";
+			};
+			name = Release;
+		};
+		0C1C3B9328925CC500239486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.VigilantEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VigilantEyes;
+			};
+			name = Debug;
+		};
+		0C1C3B9428925CC500239486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cisco.VigilantEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VigilantEyes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1C3B6228925CC400239486 /* Build configuration list for PBXProject "VigilantEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1C3B8A28925CC500239486 /* Debug */,
+				0C1C3B8B28925CC500239486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1C3B8C28925CC500239486 /* Build configuration list for PBXNativeTarget "VigilantEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1C3B8D28925CC500239486 /* Debug */,
+				0C1C3B8E28925CC500239486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1C3B8F28925CC500239486 /* Build configuration list for PBXNativeTarget "VigilantEyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1C3B9028925CC500239486 /* Debug */,
+				0C1C3B9128925CC500239486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1C3B9228925CC500239486 /* Build configuration list for PBXNativeTarget "VigilantEyesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1C3B9328925CC500239486 /* Debug */,
+				0C1C3B9428925CC500239486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0C1C3B9528925CD800239486 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0C1C3B9628925CD800239486 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C1C3B9528925CD800239486 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0C1C3B5F28925CC400239486 /* Project object */;
+}
